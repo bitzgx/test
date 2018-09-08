@@ -1,0 +1,32 @@
+{
+	"name": "bitzgx/test",
+	"description": "bitzgx test",
+	"keywords": [
+		"bitzgx",
+		"test"
+	],
+	"homepage": "https://github.com/bitzgx/test",
+	"type": "null-project",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/bitzgx/test"
+	},
+	"authors": [
+	{
+		"name": "bitzgx",
+		"email": "bitzgx@163.com"
+	}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"bitzgx\\": ""
+		}
+	},
+	"config": {
+		"process-timeout": 1800
+	}
+}
